@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Grilled Salmon",
+    "time": "30",
+    "servings": 4,
+    "calories": 300,
+    "difficulty": "easy",
+    "image": "https://example.com/grilledsalmon.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Beef Stroganoff",
+    "time": "45",
+    "servings": 6,
+    "calories": 500,
+    "difficulty": "medium",
+    "image": "https://example.com/beefstroganoff.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Chicken Tikka Masala",
+    "time": "50",
+    "servings": 4,
+    "calories": 400,
+    "difficulty": "easy",
+    "image": "https://example.com/chickentikkamasala.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Spinach and Feta Stuffed Chicken",
+    "time": "40",
+    "servings": 4,
+    "calories": 350,
+    "difficulty": "hard",
+    "image": "https://example.com/stuffedchicken.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Spaghetti Carbonara",
+    "time": "25",
+    "servings": 4,
+    "calories": 450,
+    "difficulty": "medium",
+    "image": "https://example.com/spaghetticarbonara.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Mushroom Risotto",
+    "time": "35",
+    "servings": 4,
+    "calories": 350,
+    "difficulty": "hard",
+    "image": "https://example.com/mushroomrisotto.jpg"
+  }
+]
