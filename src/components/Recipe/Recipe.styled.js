@@ -9,3 +9,5 @@ export const Wrapper = styled.div`
 export const Title = styled.h2`
   margin-bottom: 16px;
 `;
+
+export const Image = styled.img``;

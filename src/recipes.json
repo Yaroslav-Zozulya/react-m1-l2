@@ -6,7 +6,7 @@
     "servings": 4,
     "calories": 300,
     "difficulty": "easy",
-    "image": "https://example.com/grilledsalmon.jpg"
+    "image": "https://baconmockup.com/640/360"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "servings": 6,
     "calories": 500,
     "difficulty": "medium",
-    "image": "https://example.com/beefstroganoff.jpg"
+    "image": "https://baconmockup.com/640/360"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "servings": 4,
     "calories": 400,
     "difficulty": "easy",
-    "image": "https://example.com/chickentikkamasala.jpg"
+    "image": "https://baconmockup.com/640/360"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "servings": 4,
     "calories": 350,
     "difficulty": "hard",
-    "image": "https://example.com/stuffedchicken.jpg"
+    "image": "https://baconmockup.com/640/360"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "servings": 4,
     "calories": 450,
     "difficulty": "medium",
-    "image": "https://example.com/spaghetticarbonara.jpg"
+    "image": "https://baconmockup.com/640/360"
   },
   {
     "id": 6,
@@ -51,6 +51,6 @@
     "servings": 4,
     "calories": 350,
     "difficulty": "hard",
-    "image": "https://example.com/mushroomrisotto.jpg"
+    "image": "https://baconmockup.com/640/360"
   }
 ]

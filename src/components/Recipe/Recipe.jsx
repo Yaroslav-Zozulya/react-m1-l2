@@ -1,15 +1,37 @@
+import { Component } from 'react';
 import { RecipeDifficulty } from 'components/RecipeDifficulty/RecipeDifficulty';
 import { RecipeInfo } from 'components/RecipeInfo/RecipeInfo';
-import { Title, Wrapper } from './Recipe.styled';
+import { Title, Wrapper, Image } from './Recipe.styled';
 
-const Recipe = ({ recipe: { name, time, servings, calories, difficulty } }) => {
-  return (
-    <Wrapper>
-      <Title>{name}</Title>
-      <RecipeInfo time={time} servings={servings} calories={calories} />
-      <RecipeDifficulty difficulty={difficulty} />
-    </Wrapper>
-  );
-};
+class Recipe extends Component {
+  state = {
+    isOpen: false,
+  };
+
+  toggle = () => {
+    this.setState(prevState => ({ isOpen: !prevState.isOpen }));
+  };
+
+  render() {
+    const {
+      recipe: { name, time, servings, calories, difficulty, image },
+    } = this.props;
+
+    const { isOpen } = this.state;
+
+    return (
+      <Wrapper>
+        <Image src={image} onClick={this.toggle} />
+        <Title>{name}</Title>
+        {isOpen && (
+          <>
+            <RecipeInfo time={time} servings={servings} calories={calories} />
+            <RecipeDifficulty difficulty={difficulty} />
+          </>
+        )}
+      </Wrapper>
+    );
+  }
+}
 
 export default Recipe;

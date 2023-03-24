@@ -1,15 +1,15 @@
 import Recipe from 'components/Recipe/Recipe';
-import { ListItem } from './RecipeList.styled';
+import { List, ListItem } from './RecipeList.styled';
 
 const RecipeList = ({ recipes }) => {
   return (
-    <ul>
+    <List>
       {recipes.map(recipe => (
         <ListItem key={recipe.id}>
           <Recipe recipe={recipe} />
         </ListItem>
       ))}
-    </ul>
+    </List>
   );
 };
 
