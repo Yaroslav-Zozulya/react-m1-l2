@@ -32,7 +32,7 @@ export default function VisaPaymentForm() {
             <FormField label="Card Number" name="cardNumber" />
             <FormField label="CVV" name="CVV" />
             <button type="submit" disabled={isSubmitting}>
-              {isSubmitting ? 'Trying to pay' : 'Pay'}
+              {isSubmitting ? 'Paying...' : 'Pay'}
             </button>
           </Form>
         );
